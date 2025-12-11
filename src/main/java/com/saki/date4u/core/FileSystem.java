@@ -1,5 +1,7 @@
 package com.saki.date4u.core;
 
+import org.springframework.stereotype.Component;
+
 import java.io.IOException;
 import java.io.UncheckedIOException;
 import java.nio.file.Files;
@@ -11,6 +13,7 @@ import java.nio.file.Paths;
  * @since 1.0.0
  * this is the 1st class I introduced to organize the photos in the file system
  */
+@Component
 public class FileSystem {
 
     private final Path root = Paths.get(System.getProperty("user.home"), "fs");
