@@ -6,8 +6,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.util.unit.DataSize;
 
-import java.util.Arrays;
-
 @SpringBootApplication
 public class Date4uApplication {
 
