@@ -1,4 +1,4 @@
-package com.saki.date4u.interfaces.shell;
+package com.saki.date4u.core.photo;
 
 import com.saki.date4u.core.FileSystem;
 import org.springframework.stereotype.Service;

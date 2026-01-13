@@ -1,5 +1,6 @@
 package com.saki.date4u.interfaces.shell;
 
+import com.saki.date4u.core.photo.PhotoService;
 import org.springframework.shell.standard.ShellComponent;
 import org.springframework.shell.standard.ShellMethod;
 
